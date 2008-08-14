@@ -1,6 +1,6 @@
 %define module   SOAP-WSDL
 %define version    2.00.05
-%define release    %mkrel 2
+%define release    %mkrel 3
 
 Name:       perl-%{module}
 Version:    %{version}
@@ -10,7 +10,7 @@ Group:      Development/Perl
 Summary:    SOAP with WSDL support
 Url:        http://search.cpan.org/dist/%{module}
 Source:     http://www.cpan.org/modules/by-module/SOAP/%{module}-%{version}.tar.gz
-Provides:      perl(SOAP::WSDL::SOAP::Header)
+Provides:      perl(SOAP::WSDL::Header)
 BuildRequires: perl(Class::Std::Fast)
 BuildRequires: perl(Cwd)
 BuildRequires: perl(Data::Dumper)
