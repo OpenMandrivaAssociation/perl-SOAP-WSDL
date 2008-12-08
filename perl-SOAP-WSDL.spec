@@ -1,6 +1,6 @@
 %define module   SOAP-WSDL
-%define version    2.00.05
-%define release    %mkrel 3
+%define version    2.00.06
+%define release    %mkrel 1
 
 Name:       perl-%{module}
 Version:    %{version}
