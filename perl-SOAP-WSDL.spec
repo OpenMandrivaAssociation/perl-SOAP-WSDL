@@ -65,3 +65,38 @@ rm -rf %buildroot
 %{_mandir}/man1/*
 %{perl_vendorlib}/SOAP
 
+
+
+%changelog
+* Wed May 20 2009 Guillaume Rousse <guillomovitch@mandriva.org> 2.00.10-1mdv2010.0
++ Revision: 377830
+- update to new version 2.00.10
+
+* Tue Feb 24 2009 Guillaume Rousse <guillomovitch@mandriva.org> 2.00.09-1mdv2009.1
++ Revision: 344390
+- update to new version 2.00.09
+
+* Mon Feb 23 2009 Guillaume Rousse <guillomovitch@mandriva.org> 2.00.08-1mdv2009.1
++ Revision: 344218
+- update to new version 2.00.08
+
+* Mon Dec 08 2008 Guillaume Rousse <guillomovitch@mandriva.org> 2.00.06-1mdv2009.1
++ Revision: 312022
+- update to new version 2.00.06
+
+* Thu Aug 14 2008 Guillaume Rousse <guillomovitch@mandriva.org> 2.00.05-3mdv2009.0
++ Revision: 272152
+- correctly fix dependencies
+
+* Wed Aug 13 2008 Guillaume Rousse <guillomovitch@mandriva.org> 2.00.05-2mdv2009.0
++ Revision: 271603
+- fix dependencies
+
+* Wed Aug 13 2008 Guillaume Rousse <guillomovitch@mandriva.org> 2.00.05-1mdv2009.0
++ Revision: 271514
+- import perl-SOAP-WSDL
+
+
+* Wed Aug 13 2008 Guillaume Rousse <guillomovitch@mandriva.org> 2.00.05-1mdv2009.0
+- initial mdv release, generated with cpan2dist
+
