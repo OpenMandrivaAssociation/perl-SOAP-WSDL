@@ -2,7 +2,7 @@
 
 Name:       perl-%{module}
 Version:    2.00.10
-Release:    3
+Release:    4
 License:    GPL or Artistic
 Group:      Development/Perl
 Summary:    SOAP with WSDL support
