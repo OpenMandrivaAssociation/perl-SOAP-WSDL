@@ -6,7 +6,7 @@ Release:    4
 License:    GPL or Artistic
 Group:      Development/Perl
 Summary:    SOAP with WSDL support
-Url:        http://search.cpan.org/dist/%{module}
+Url:        https://search.cpan.org/dist/%{module}
 Source:     http://www.cpan.org/modules/by-module/SOAP/%{module}-%{version}.tar.gz
 Provides:      perl(SOAP::WSDL::Header)
 BuildRequires: perl(CGI)
