@@ -9,6 +9,7 @@ Summary:    SOAP with WSDL support
 Url:        https://search.cpan.org/dist/%{module}
 Source:     http://www.cpan.org/modules/by-module/SOAP/%{module}-%{version}.tar.gz
 Provides:      perl(SOAP::WSDL::Header)
+BuildRequires:	make
 BuildRequires: perl(CGI)
 BuildRequires: perl(Class::Std::Fast)
 BuildRequires: perl(Cwd)
